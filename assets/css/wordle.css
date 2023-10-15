@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Gabarito',sans-serif;
+    src: url(/assets/fonts/Gabarito-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    color: #fff;
+    font-family: 'Gabarito', sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: #121213;
+}
+.game-container{
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-block: 42px;
+    border-bottom: solid 1px #c1c1c1;
+}
+
