@@ -20,17 +20,22 @@ body{
     align-items: center;
 }
 .title{
+    width: 1000px;
     display: flex;
     align-items: center;
     padding-block: 42px;
     border-bottom: solid 1px #c1c1c1;
-    gap: 600px;
+    justify-content: space-between;
+    
+}
+.title-content{
+   
 }
 .tile-container {
     width: 330px;
-    margin-bottom: 30px;
+    margin-block: 30px;
 }
-.tile-container, .tile{
+.tile{
     width: 62px;
     height: 62px;
     border: 2px solid #3a3a3c;
@@ -59,4 +64,13 @@ body{
     margin: 4px;
 
 }
+.message-section{
+    height: 30px;
+}
 
+.message-section p{
+    background-color: #818384;
+    border-radius: 12px;
+    padding: 10px;
+    margin-block: 10px;
+}
