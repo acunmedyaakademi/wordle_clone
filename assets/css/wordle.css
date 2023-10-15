@@ -28,9 +28,6 @@ body{
     justify-content: space-between;
     
 }
-.title-content{
-   
-}
 .tile-container {
     width: 330px;
     margin-block: 30px;
@@ -64,6 +61,10 @@ body{
     margin: 4px;
 
 }
+.keyboard-container button:hover{
+    background-color: rgb(228, 231, 35);
+    color: black;
+}
 .message-section{
     height: 30px;
 }
@@ -77,4 +78,7 @@ body{
 .title-links{
     display: flex;
     gap: 30px;
+}
+.title-links a:hover{
+    color: rgb(228, 231, 35);
 }
